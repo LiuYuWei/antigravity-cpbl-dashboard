@@ -1,16 +1,35 @@
-# React + Vite
+[正體中文](./README_zhtw.md)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# CPBL Winter League Dashboard
 
-Currently, two official plugins are available:
+This project is a dashboard for the CPBL (Chinese Professional Baseball League) Winter League 2025. It displays standings, schedules, and other information in a user-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+-   **Dashboard:** An overview of the league.
+-   **Standings:** Shows the current team standings.
+-   **Schedule:** Displays the game schedule.
+-   **Timeline:** A timeline of events.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Screenshots
 
-## Expanding the ESLint configuration
+Here are some screenshots of the application:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Screenshot 1](./snapshot/%E6%88%AA%E5%9C%96%202025-11-19%20%E6%99%9A%E4%B8%8A10.35.11.png)
+![Screenshot 2](./snapshot/%E6%88%AA%E5%9C%96%202025-11-19%20%E6%99%9A%E4%B8%8A10.35.18.png)
+![Screenshot 3](./snapshot/%E6%88%AA%E5%9C%96%202025-11-19%20%E6%99%9A%E4%B8%8A10.35.25.png)
+![Screenshot 4](./snapshot/%E6%88%AA%E5%9C%96%202025-11-19%20%E6%99%9A%E4%B8%8A10.35.32.png)
+
+## How to run
+
+This project was bootstrapped with [Vite](https://vitejs.dev/).
+
+1.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+2.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+3.  Open your browser to `http://localhost:5173/` (or the port specified in the output) to see the application.
